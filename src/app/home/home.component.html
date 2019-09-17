@@ -1,0 +1,14 @@
+
+<div class="grid theme-container">
+  <div class="content">
+    <div class="demo">
+      <label class="switch">
+        <input type="checkbox" class="theme-switcher"
+        name="theme" id="theme-switcher"
+        [checked]="chgTheme" (change)="ChangeTheme(changeTheme.value)"
+        [(ngModel)]="theme-switcher" #changeTheme="ngModel">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+</div>

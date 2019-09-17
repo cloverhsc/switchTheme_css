@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --example-color: #ccc;
+  --example-align: left;
+  --example-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.someElement {
+  background-color: var(--example-color, #dd11dd);
+}
